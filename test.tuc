@@ -1,0 +1,588 @@
+local utilitydata = { }
+
+utilitydata.comment={
+ ["escape"]="[===[ ... ]===]",
+ ["file"]="tex.jobname",
+ ["format"]="cont-en",
+ ["stamp"]="2016.05.17 19:20",
+ ["version"]=1.3,
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.variables then utilitydata.job.variables = { } end
+
+utilitydata.job.variables.checksums={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.variables then utilitydata.job.variables = { } end
+
+utilitydata.job.variables.collected={
+ ["macros"]={},
+ ["randomseed"]=0.99425973696367,
+ ["sectionblockorder"]={},
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.structure then utilitydata.job.structure = { } end
+
+utilitydata.job.structure.collected={
+ ["branches"]={
+  {
+   ["branches"]={},
+   ["name"]="env392",
+   ["type"]="environment",
+  },
+ },
+ ["name"]="test",
+ ["type"]="text",
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.positions then utilitydata.job.positions = { } end
+
+utilitydata.job.positions.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.passes then utilitydata.job.passes = { } end
+
+utilitydata.job.passes.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.datasets then utilitydata.job.datasets = { } end
+
+utilitydata.job.datasets.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.pagestates then utilitydata.job.pagestates = { } end
+
+utilitydata.job.pagestates.collected={
+ ["float"]={ 2, 3, 4 },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.specials then utilitydata.structures.specials = { } end
+
+utilitydata.structures.specials.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.counters then utilitydata.structures.counters = { } end
+
+utilitydata.structures.counters.collected={
+ ["chemical"]={
+  { 0 },
+ },
+ ["combination"]={
+  { 0 },
+ },
+ ["endnote"]={
+  { 0 },
+ },
+ ["figure"]={
+  { 3 },
+ },
+ ["footnote"]={
+  { 3 },
+ },
+ ["formula"]={
+  { 0 },
+ },
+ ["graphic"]={
+  { 0 },
+ },
+ ["intermezzo"]={
+  { 0 },
+ },
+ ["itemgroup:itemize"]={
+  { 0 },
+ },
+ ["linenote"]={
+  { 0 },
+ },
+ ["paragraph"]={
+  { 0 },
+ },
+ ["realpage"]={
+  { 4 },
+ },
+ ["subpage"]={
+  { 0 },
+ },
+ ["table"]={
+  { 0 },
+ },
+ ["userpage"]={
+  { 4 },
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.lists then utilitydata.structures.lists = { } end
+
+utilitydata.structures.lists.collected={
+ {
+  ["metadata"]=1,
+  ["numberdata"]=3,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=1,
+   ["realpage"]=1,
+   ["section"]=1,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Foo",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=6,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=4,
+   ["realpage"]=1,
+   ["section"]=2,
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Bar",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=8,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=7,
+   ["realpage"]=1,
+   ["section"]=3,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Foo",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=11,
+  ["prefixdata"]=12,
+  ["references"]={
+   ["internal"]=2,
+   ["order"]=1,
+   ["realpage"]=1,
+   ["section"]=1,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="\\input bryson",
+  },
+ },
+ {
+  ["metadata"]=13,
+  ["numberdata"]=14,
+  ["prefixdata"]=15,
+  ["references"]={
+   ["internal"]=5,
+   ["realpage"]=2,
+   ["reference"]="SecondMound",
+   ["section"]=2,
+   ["used"]="fit",
+   ["view"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="This is a lovely burial mound",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=17,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=10,
+   ["realpage"]=2,
+   ["section"]=4,
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Bar",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=19,
+  ["prefixdata"]=12,
+  ["references"]={
+   ["internal"]=8,
+   ["order"]=2,
+   ["realpage"]=2,
+   ["section"]=3,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="\\input bryson",
+  },
+ },
+ {
+  ["metadata"]=13,
+  ["numberdata"]=20,
+  ["prefixdata"]=15,
+  ["references"]={
+   ["internal"]=6,
+   ["realpage"]=3,
+   ["reference"]="FirstMound",
+   ["section"]=2,
+   ["view"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="This is a lovely burial mound",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=11,
+   ["realpage"]=3,
+   ["section"]=5,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Foo",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=24,
+  ["prefixdata"]=12,
+  ["references"]={
+   ["internal"]=12,
+   ["order"]=3,
+   ["realpage"]=3,
+   ["section"]=5,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="\\input bryson",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=26,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=14,
+   ["realpage"]=4,
+   ["section"]=6,
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Bar",
+  },
+ },
+ {
+  ["metadata"]=13,
+  ["numberdata"]=27,
+  ["prefixdata"]=15,
+  ["references"]={
+   ["internal"]=15,
+   ["realpage"]=4,
+   ["reference"]="ThirdMound",
+   ["section"]=6,
+   ["view"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="This is a lovely burial mound",
+  },
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.pages then utilitydata.structures.pages = { } end
+
+utilitydata.structures.pages.collected={
+ {
+  ["block"]="bodypart",
+  ["number"]=1,
+  ["numberdata"]=28,
+  ["prefixdata"]=29,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=2,
+  ["numberdata"]=28,
+  ["prefixdata"]=29,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=3,
+  ["numberdata"]=28,
+  ["prefixdata"]=29,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=4,
+  ["numberdata"]=28,
+  ["prefixdata"]=29,
+  ["state"]="start",
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.references then utilitydata.structures.references = { } end
+
+utilitydata.structures.references.collected={
+ [""]={
+  ["*12"]={
+   ["metadata"]=30,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=13,
+    ["realpage"]=3,
+    ["reference"]="*12",
+    ["section"]=5,
+    ["used"]="fit",
+    ["view"]="fit",
+   },
+  },
+  ["*2"]={
+   ["metadata"]=30,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=3,
+    ["realpage"]=1,
+    ["reference"]="*2",
+    ["section"]=1,
+    ["used"]="fit",
+    ["view"]="fit",
+   },
+  },
+  ["*8"]={
+   ["metadata"]=30,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=9,
+    ["realpage"]=2,
+    ["reference"]="*8",
+    ["section"]=3,
+    ["used"]="fit",
+    ["view"]="fit",
+   },
+  },
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.references then utilitydata.structures.references = { } end
+
+utilitydata.structures.references.referred={
+ { 1, 1 },
+ { 1, 4 },
+ { 2, 5 },
+ { 3, 7 },
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.objects then utilitydata.job.objects = { } end
+
+utilitydata.job.objects.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.synonyms then utilitydata.structures.synonyms = { } end
+
+utilitydata.structures.synonyms.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.registers then utilitydata.structures.registers = { } end
+
+utilitydata.structures.registers.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.blocks then utilitydata.structures.blocks = { } end
+
+utilitydata.structures.blocks.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.files then utilitydata.job.files = { } end
+
+utilitydata.job.files.collected={
+}
+
+if not utilitydata.publications then utilitydata.publications = { } end
+
+utilitydata.publications.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.fileobjreferences then utilitydata.job.fileobjreferences = { } end
+
+utilitydata.job.fileobjreferences.collected={
+}
+
+utilitydata.job.packed={
+ ["index"]={
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["increment"]="yes",
+   ["kind"]="section",
+   ["level"]=3,
+   ["name"]="section",
+  },
+  { 0, 0, 1 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["language"]="en",
+   ["numbers"]=2,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["increment"]="yes",
+   ["kind"]="section",
+   ["level"]=4,
+   ["name"]="subsection",
+  },
+  { 0, 0, 1, 1 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["language"]="en",
+   ["numbers"]=5,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  { 0, 0, 2 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["language"]="en",
+   ["numbers"]=7,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["kind"]="construction",
+   ["level"]=3,
+   ["name"]="footnote",
+  },
+  { 1 },
+  {
+   ["conversionset"]="number",
+   ["numbers"]=10,
+  },
+  {
+   ["connector"]=".",
+   ["prefix"]="no",
+   ["segments"]="2:2",
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["kind"]="float",
+   ["level"]=4,
+   ["name"]="figure",
+  },
+  {
+   ["conversionset"]="number",
+   ["counter"]="figure",
+   ["numbers"]=10,
+  },
+  {
+   ["connector"]=".",
+   ["prefix"]="yes",
+   ["segments"]="2:2",
+  },
+  { 0, 0, 2, 1 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["language"]="en",
+   ["numbers"]=16,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  { 2 },
+  {
+   ["conversionset"]="number",
+   ["numbers"]=18,
+  },
+  {
+   ["conversionset"]="number",
+   ["counter"]="figure",
+   ["numbers"]=18,
+  },
+  { 0, 0, 3 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["language"]="en",
+   ["numbers"]=21,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  { 3 },
+  {
+   ["conversionset"]="number",
+   ["numbers"]=23,
+  },
+  { 0, 0, 3, 1 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["language"]="en",
+   ["numbers"]=25,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["conversionset"]="number",
+   ["counter"]="figure",
+   ["numbers"]=23,
+  },
+  {
+   ["conversionset"]="pagenumber",
+  },
+  {
+   ["connector"]="–",
+   ["prefix"]="no",
+   ["set"]="part",
+  },
+  {
+   ["kind"]="page",
+  },
+ },
+ ["keys"]={
+  ["directives"]=true,
+  ["metadata"]=true,
+  ["numberdata"]=true,
+  ["numbers"]=true,
+  ["pagedata"]=true,
+  ["prefixdata"]=true,
+  ["processors"]=true,
+  ["sectiondata"]=true,
+  ["specification"]=true,
+ },
+ ["skip"]={
+  ["datasets"]=true,
+  ["userdata"]=true,
+ },
+ ["version"]=1.02,
+}
+
+return utilitydata

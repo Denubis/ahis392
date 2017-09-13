@@ -1,0 +1,136 @@
+open source     > 1 > 1 > /usr/share/texmf/tex/context/base/mkiv/cont-yes.mkiv
+
+ConTeXt  ver: 2016.05.17 19:20 MKIV current  fmt: 2017.2.24  int: english/english
+
+system          > 'cont-new.mkiv' loaded
+open source     > 2 > 2 > /usr/share/texmf/tex/context/base/mkiv/cont-new.mkiv
+close source    > 2 > 2 > /usr/share/texmf/tex/context/base/mkiv/cont-new.mkiv
+system          > files > jobname 'test', input './test', result 'test'
+fonts           > latin modern fonts are not preloaded
+languages       > language 'en' is active
+open source     > 2 > 3 > /home/mq20151400/madeline/ahis392template/test.tex
+open source     > 3 > 4 > env392.tex
+close source    > 3 > 4 > env392.tex
+fonts           > preloading latin modern fonts (second stage)
+fonts           > 'fallback modern-designsize rm 12pt' is loaded
+structure       > sectioning > section @ level 3 : 0.0.1 -> Foo
+open source     > 3 > 5 > /usr/share/texmf/tex/context/sample/common/knuth.tex
+close source    > 3 > 5 > /usr/share/texmf/tex/context/sample/common/knuth.tex
+open source     > 3 > 6 > /usr/share/texmf/tex/context/sample/common/bryson.tex
+close source    > 3 > 6 > /usr/share/texmf/tex/context/sample/common/bryson.tex
+open source     > 3 > 7 > /usr/share/texmf/tex/context/sample/common/knuth.tex
+close source    > 3 > 7 > /usr/share/texmf/tex/context/sample/common/knuth.tex
+structure       > sectioning > subsection @ level 4 : 0.0.1.1 -> Bar
+open source     > 3 > 8 > /usr/share/texmf/tex/context/sample/common/davis.tex
+close source    > 3 > 8 > /usr/share/texmf/tex/context/sample/common/davis.tex
+floatblocks     > 1 saved
+floatblocks     > 2 saved
+structure       > sectioning > section @ level 3 : 0.0.2 -> Foo
+open source     > 3 > 9 > /usr/share/texmf/tex/context/sample/common/knuth.tex
+close source    > 3 > 9 > /usr/share/texmf/tex/context/sample/common/knuth.tex
+open source     > 3 > 10 > /usr/share/texmf/tex/context/sample/common/bryson.tex
+close source    > 3 > 10 > /usr/share/texmf/tex/context/sample/common/bryson.tex
+structure       > sectioning > subsection @ level 4 : 0.0.2.1 -> Bar
+backend         > xmp > using file '/usr/share/texmf/tex/context/base/mkiv/lpdf-pdx.xml'
+pages           > flushing realpage 1, userpage 1
+floatblocks     > 1 moved
+floatblocks     > '1' moved
+floatblocks     > 2 moved
+floatblocks     > 2 saved
+floatblocks     > n of top floats limited to '2'
+floatblocks     > n of bottom floats limited to '0'
+open source     > 3 > 11 > /usr/share/texmf/tex/context/sample/common/davis.tex
+close source    > 3 > 11 > /usr/share/texmf/tex/context/sample/common/davis.tex
+pages           > flushing realpage 2, userpage 2
+floatblocks     > 2 moved
+floatblocks     > '2' moved
+structure       > sectioning > section @ level 3 : 0.0.3 -> Foo
+open source     > 3 > 12 > /usr/share/texmf/tex/context/sample/common/knuth.tex
+close source    > 3 > 12 > /usr/share/texmf/tex/context/sample/common/knuth.tex
+open source     > 3 > 13 > /usr/share/texmf/tex/context/sample/common/bryson.tex
+close source    > 3 > 13 > /usr/share/texmf/tex/context/sample/common/bryson.tex
+structure       > sectioning > subsection @ level 4 : 0.0.3.1 -> Bar
+open source     > 3 > 14 > /usr/share/texmf/tex/context/sample/common/davis.tex
+close source    > 3 > 14 > /usr/share/texmf/tex/context/sample/common/davis.tex
+pages           > flushing realpage 3, userpage 3
+floatblocks     > '3' placed
+pages           > flushing realpage 4, userpage 4
+close source    > 2 > 14 > /home/mq20151400/madeline/ahis392template/test.tex
+close source    > 1 > 14 > /usr/share/texmf/tex/context/base/mkiv/cont-yes.mkiv
+
+system          > structure > start used structure
+
+used structure  > text: test
+used structure  >   environment: env392
+
+system          > structure > stop used structure
+
+
+system          > files > start used files
+
+used file       >    1: filename=cont-yes.mkiv filetype=tex foundname=/usr/share/texmf/tex/context/base/mkiv/cont-yes.mkiv usedmethod=database
+used file       >    2: filename=publ-imp-default.lua filetype=lua foundname=/usr/share/texmf/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
+used file       >    3: filename=cont-new.mkiv filetype=tex foundname=/usr/share/texmf/tex/context/base/mkiv/cont-new.mkiv usedmethod=database
+used file       >    4: filename=lang-us.lua filetype=lua foundname=/usr/share/texmf/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
+used file       >    5: filename=/home/mq20151400/madeline/ahis392template/test foundname=/home/mq20151400/madeline/ahis392template/test.tex usedmethod=qualified
+used file       >    6: filename=env392.tex foundname=env392.tex usedmethod=direct
+used file       >    7: filename=lm.lfg filetype=tex foundname=/usr/share/texmf/tex/context/fonts/mkiv/lm.lfg usedmethod=database
+used file       >    8: filename=lmroman12-regular filetype=otf format=otf foundname=/usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf usedmethod=database
+used file       >    9: filename=latinmodern-math.otf filetype=opentypefonts foundname=/usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf usedmethod=database
+used file       >   10: filename=lmroman10-regular filetype=otf format=otf foundname=/usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf usedmethod=database
+used file       >   11: filename=knuth filetype=tex foundname=/usr/share/texmf/tex/context/sample/common/knuth.tex usedmethod=database
+used file       >   12: filename=lmroman8-regular filetype=otf format=otf foundname=/usr/share/texmf/fonts/opentype/public/lm/lmroman8-regular.otf usedmethod=database
+used file       >   13: filename=bryson filetype=tex foundname=/usr/share/texmf/tex/context/sample/common/bryson.tex usedmethod=database
+used file       >   14: filename=davis filetype=tex foundname=/usr/share/texmf/tex/context/sample/common/davis.tex usedmethod=database
+used file       >   15: filename=lmromanslant12-regular filetype=otf format=otf foundname=/usr/share/texmf/fonts/opentype/public/lm/lmromanslant12-regular.otf usedmethod=database
+used file       >   16: filename=Mounds.png format=tex foundname=Mounds.png usedmethod=direct
+used file       >   17: filename=lmroman12-bold filetype=otf format=otf foundname=/usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf usedmethod=database
+used file       >   18: filename=lpdf-pdx.xml filetype=tex foundname=/usr/share/texmf/tex/context/base/mkiv/lpdf-pdx.xml usedmethod=database
+
+system          > files > stop used files
+
+
+system          > options > start commandline options
+
+used option     > currentrun="1"
+used option     > fulljobname="./test"
+used option     > input="./test"
+used option     > kindofrun="1"
+used option     > maxnofruns="9"
+used option     > no-parse-first-line="true"
+
+system          > options > stop commandline options
+
+system          > options > start commandline files
+
+used file       >    1: ./test
+
+system          > options > stop commandline files
+
+
+mkiv lua stats  > used config file: /usr/share/texmf/web2c/texmfcnf.lua;/usr/share/texlive/texmf-dist/web2c/texmfcnf.lua
+mkiv lua stats  > used cache path: readable: '/var/lib/texmf/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442' | readable+writable: '/home/mq20151400/.texlive2016/texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442'
+mkiv lua stats  > resource resolver: loadtime 0.058 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 18 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 387 modules (0.236 sec), 82 tables (0.006 sec), 469 chunks (0.242 sec)
+mkiv lua stats  > traced context: maxstack: 1177, freed: 2, unreachable: 1175
+mkiv lua stats  > cleaned up reserved nodes: 50 nodes, 9 lists of 444
+mkiv lua stats  > node memory usage: 81 hlist, 37 vlist, 15 rule, 12 boundary, 6 disc, 6 local_par, 15 dir, 119 glue, 12 kern, 20 penalty, 99 glyph, 340 attribute, 39 glue_spec, 84 attribute_list, 2 temp, 9 late_lua
+mkiv lua stats  > node list callback tasks: 6 unique task lists, 5 instances (re)created, 397 calls
+mkiv lua stats  > h-node processing time: 0.012 seconds including kernel
+mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
+mkiv lua stats  > jobdata time: 0.001 seconds saving, 0.001 seconds loading
+mkiv lua stats  > callbacks: 989 direct, 453 indirect, 1442 total
+mkiv lua stats  > randomizer: resumed with value 0.99425973696367
+mkiv lua stats  > loaded patterns: en::2, load time: 0.000
+mkiv lua stats  > interactive elements: 7 references, 15 destinations
+mkiv lua stats  > result saved in file: test.pdf, compresslevel 3, objectcompresslevel 3
+mkiv lua stats  > loaded fonts: 6 files: latinmodern-math.otf, lmroman10-regular.otf, lmroman12-bold.otf, lmroman12-regular.otf, lmroman8-regular.otf, lmromanslant12-regular.otf
+mkiv lua stats  > font engine: otf 3.020, afm 1.512, tfm 1.000, 12 instances, 4 shared in backend, 0 common vectors, 4 common hashes, load time 0.165 seconds 
+mkiv lua stats  > graphics processing time: 0.002 seconds including tex, 3 processed images, 1 unique asked, 1 bad names
+mkiv lua stats  > pdf annotations: 7 links (7 unique), 0 special
+mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: usr
+mkiv lua stats  > luatex banner: this is luatex, version 0.95.0 (tex live 2016/debian)
+mkiv lua stats  > control sequences: 43899 of 65536 + 100000
+mkiv lua stats  > lua properties: engine: lua, used memory: 95 MB (ctx: 95 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 0.579 seconds, 4 processed pages, 4 shipped pages, 6.908 pages/second
+
